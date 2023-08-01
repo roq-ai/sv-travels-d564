@@ -1,0 +1,2442 @@
+[
+  {
+    "loyalty_program": [
+      {
+        "id": "5c6f87d8-076c-4e12-b6c2-2ae8e9119e6f",
+        "points": 50767,
+        "created_at": "2023-08-01T04:27:56.003Z",
+        "updated_at": "2023-08-01T04:30:24.165Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "5d03b21f-c899-4a12-9649-c21f812a050d",
+        "points": 50462,
+        "created_at": "2023-08-01T09:14:25.207Z",
+        "updated_at": "2023-08-01T08:44:26.128Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ce665d87-8f99-42b0-b001-902e92af2f9f",
+        "points": 32737,
+        "created_at": "2023-08-01T09:07:10.584Z",
+        "updated_at": "2023-08-01T15:54:42.367Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0d9db1a0-853c-4b2a-90cd-3dd5171771f2",
+        "points": 95406,
+        "created_at": "2023-08-01T06:49:38.817Z",
+        "updated_at": "2023-08-01T01:17:53.747Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "bef9f149-6233-4e7e-8334-a15f7d0579ce",
+        "points": 35637,
+        "created_at": "2023-08-01T16:05:45.672Z",
+        "updated_at": "2023-08-01T03:29:36.621Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "097d8712-f7ec-4a7c-9b8e-6f97ab7479b2",
+        "availability_status": true,
+        "created_at": "2023-08-01T14:01:26.776Z",
+        "updated_at": "2023-07-31T17:47:04.394Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61b0db58-ae15-412d-8685-82278ba299a3",
+        "availability_status": true,
+        "created_at": "2023-08-01T13:35:40.839Z",
+        "updated_at": "2023-08-01T14:15:04.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66e5dc67-635e-4f48-bee4-e17a7ed3b3aa",
+        "availability_status": false,
+        "created_at": "2023-08-01T00:29:26.050Z",
+        "updated_at": "2023-08-01T10:34:53.239Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b2bfc30-ed12-4d84-aa96-a00ec95c2adf",
+        "availability_status": false,
+        "created_at": "2023-07-31T19:55:30.053Z",
+        "updated_at": "2023-08-01T05:41:53.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8695fed-8e64-4654-955d-3063c2b1af63",
+        "availability_status": false,
+        "created_at": "2023-08-01T11:54:49.762Z",
+        "updated_at": "2023-08-01T12:09:40.365Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "69e20de8-627c-42ce-bce2-0bc0ca450e63",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-07-31T20:24:01.392Z",
+        "updated_at": "2023-08-01T02:32:52.725Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "61b0db58-ae15-412d-8685-82278ba299a3"
+      },
+      {
+        "id": "8349d7d7-265b-48e2-b573-f5646df1575a",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T07:39:21.999Z",
+        "updated_at": "2023-08-01T00:57:12.847Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "61b0db58-ae15-412d-8685-82278ba299a3"
+      },
+      {
+        "id": "3efa4032-e53d-4018-9ae1-c59772f594fe",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T15:49:53.842Z",
+        "updated_at": "2023-08-01T09:19:12.937Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "097d8712-f7ec-4a7c-9b8e-6f97ab7479b2"
+      },
+      {
+        "id": "b0b2ddce-d331-49bf-9d55-11b87712430f",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T04:33:12.297Z",
+        "updated_at": "2023-08-01T05:22:50.888Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a8695fed-8e64-4654-955d-3063c2b1af63"
+      },
+      {
+        "id": "ea3c8375-8111-4457-83a9-cd41f2e35b22",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T15:07:19.031Z",
+        "updated_at": "2023-07-31T18:57:38.124Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a8695fed-8e64-4654-955d-3063c2b1af63"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "dc22a456-941a-4e45-969e-9162237561bf",
+        "created_at": "2023-08-01T05:19:57.635Z",
+        "updated_at": "2023-08-01T08:40:37.091Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "b0b2ddce-d331-49bf-9d55-11b87712430f"
+      },
+      {
+        "id": "2626475a-8553-4922-a091-161e96d86b69",
+        "created_at": "2023-08-01T02:41:47.135Z",
+        "updated_at": "2023-08-01T12:13:48.710Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "ea3c8375-8111-4457-83a9-cd41f2e35b22"
+      },
+      {
+        "id": "86dc21e5-9794-4820-8435-d72be43e7273",
+        "created_at": "2023-08-01T05:48:54.530Z",
+        "updated_at": "2023-08-01T16:18:43.797Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "ea3c8375-8111-4457-83a9-cd41f2e35b22"
+      },
+      {
+        "id": "9d4e7c4c-f889-4bd1-b52c-af4b550f47e2",
+        "created_at": "2023-08-01T13:25:29.056Z",
+        "updated_at": "2023-08-01T14:03:38.779Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "3efa4032-e53d-4018-9ae1-c59772f594fe"
+      },
+      {
+        "id": "7bf0cbb4-7387-4ded-8b4d-27afa30a9530",
+        "created_at": "2023-08-01T00:31:39.820Z",
+        "updated_at": "2023-07-31T21:19:38.734Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "3efa4032-e53d-4018-9ae1-c59772f594fe"
+      }
+    ],
+    "rating": [
+      {
+        "id": "3ebc42ed-716d-4e84-8ed2-7b1668ed87be",
+        "rating_value": 55129,
+        "created_at": "2023-08-01T00:46:33.645Z",
+        "updated_at": "2023-07-31T16:56:15.113Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "66e5dc67-635e-4f48-bee4-e17a7ed3b3aa"
+      },
+      {
+        "id": "0374bdfd-f9b0-4020-8146-8d6b5b168526",
+        "rating_value": 58968,
+        "created_at": "2023-07-31T19:01:32.570Z",
+        "updated_at": "2023-08-01T02:44:58.068Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a8695fed-8e64-4654-955d-3063c2b1af63"
+      },
+      {
+        "id": "ae619c1f-8dec-4e85-950e-33c3bb5d5354",
+        "rating_value": 93055,
+        "created_at": "2023-07-31T22:40:51.750Z",
+        "updated_at": "2023-07-31T20:53:04.397Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "4b2bfc30-ed12-4d84-aa96-a00ec95c2adf"
+      },
+      {
+        "id": "bf268af6-c941-48e2-9f50-23e44f4687d9",
+        "rating_value": 44688,
+        "created_at": "2023-08-01T00:31:51.843Z",
+        "updated_at": "2023-07-31T17:13:53.420Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a8695fed-8e64-4654-955d-3063c2b1af63"
+      },
+      {
+        "id": "1afdaea8-a73a-4aba-ab66-9dfd8b2c14f1",
+        "rating_value": 51376,
+        "created_at": "2023-07-31T17:52:40.558Z",
+        "updated_at": "2023-07-31T18:21:21.424Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "61b0db58-ae15-412d-8685-82278ba299a3"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2b3e7296-a0ac-4873-80f3-26e886274be7",
+        "scheduled_time": "2023-08-01T16:44:16.301Z",
+        "created_at": "2023-08-01T12:22:00.155Z",
+        "updated_at": "2023-07-31T21:54:11.130Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "33c36a09-50a4-435c-be9e-502c773f3716",
+        "scheduled_time": "2023-08-01T02:55:17.254Z",
+        "created_at": "2023-08-01T09:57:03.185Z",
+        "updated_at": "2023-08-01T01:35:10.446Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "8ed4f75c-6f76-4932-8178-a11d3b327885",
+        "scheduled_time": "2023-08-01T04:13:26.677Z",
+        "created_at": "2023-08-01T13:33:00.902Z",
+        "updated_at": "2023-08-01T07:45:51.225Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f121728a-c2cb-4675-b534-18448c5f9f85",
+        "scheduled_time": "2023-08-01T13:16:20.210Z",
+        "created_at": "2023-07-31T19:38:10.230Z",
+        "updated_at": "2023-08-01T01:29:07.498Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "bdd0ce72-75ab-4bbd-838a-b8aca1c2248c",
+        "scheduled_time": "2023-08-01T00:07:11.097Z",
+        "created_at": "2023-07-31T18:06:28.053Z",
+        "updated_at": "2023-08-01T07:37:00.899Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "bbe6e786-d27b-4947-a232-155c46c1fe06",
+        "points": 18860,
+        "created_at": "2023-08-01T15:54:45.874Z",
+        "updated_at": "2023-08-01T05:48:38.472Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "8744b123-1a35-4611-a98c-d91787ca9bc2",
+        "points": 19189,
+        "created_at": "2023-08-01T05:05:02.944Z",
+        "updated_at": "2023-07-31T23:51:44.922Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "85097434-df1d-4b6c-bb74-e5635af16a83",
+        "points": 62053,
+        "created_at": "2023-08-01T05:25:27.737Z",
+        "updated_at": "2023-08-01T07:27:10.074Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "cb10fb67-32d4-4021-b40b-efefe39211e5",
+        "points": 85763,
+        "created_at": "2023-08-01T11:33:27.106Z",
+        "updated_at": "2023-08-01T05:01:26.701Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f00c269f-fc40-4756-9b86-0c25a7e6bae5",
+        "points": 48726,
+        "created_at": "2023-07-31T21:23:13.347Z",
+        "updated_at": "2023-08-01T06:17:10.722Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "d5cb95f4-dde1-4616-8f08-b50dac116b08",
+        "availability_status": true,
+        "created_at": "2023-08-01T16:04:57.055Z",
+        "updated_at": "2023-08-01T02:41:05.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a33a613a-9eb1-4ded-b409-d352def57639",
+        "availability_status": false,
+        "created_at": "2023-08-01T00:42:54.548Z",
+        "updated_at": "2023-08-01T13:13:30.872Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ae0c18d-5c72-4d18-ac66-0a8c93b3192d",
+        "availability_status": true,
+        "created_at": "2023-08-01T11:45:04.426Z",
+        "updated_at": "2023-08-01T07:30:36.608Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e73a55f3-3f3b-43c4-a4c0-33e35cd6fcb3",
+        "availability_status": true,
+        "created_at": "2023-08-01T15:47:36.896Z",
+        "updated_at": "2023-07-31T21:40:30.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42ac7f53-0d5f-4263-abcf-1ce350c378d2",
+        "availability_status": false,
+        "created_at": "2023-08-01T13:52:42.338Z",
+        "updated_at": "2023-08-01T03:32:44.462Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "02519279-5083-4a06-a377-1403eb71da4c",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T15:35:11.776Z",
+        "updated_at": "2023-08-01T01:18:20.831Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a33a613a-9eb1-4ded-b409-d352def57639"
+      },
+      {
+        "id": "545110c2-ce33-49c5-8dca-2f5c0acbfc8a",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T03:06:30.941Z",
+        "updated_at": "2023-08-01T00:01:52.910Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "e73a55f3-3f3b-43c4-a4c0-33e35cd6fcb3"
+      },
+      {
+        "id": "7763b526-0dd6-47fd-9d40-c8820758e82a",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T03:16:13.530Z",
+        "updated_at": "2023-08-01T14:00:37.026Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "42ac7f53-0d5f-4263-abcf-1ce350c378d2"
+      },
+      {
+        "id": "ac22d181-235a-49b9-b5ab-76772d004a3d",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-07-31T17:31:50.416Z",
+        "updated_at": "2023-07-31T18:08:31.537Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "d5cb95f4-dde1-4616-8f08-b50dac116b08"
+      },
+      {
+        "id": "2a83bd37-2621-4aae-a76d-a14db6dedf8c",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-07-31T21:08:47.349Z",
+        "updated_at": "2023-08-01T03:41:26.111Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "d5cb95f4-dde1-4616-8f08-b50dac116b08"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "9d06dd1d-60dc-490d-8c85-141bae81d844",
+        "created_at": "2023-08-01T14:44:41.008Z",
+        "updated_at": "2023-07-31T20:06:11.919Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "7763b526-0dd6-47fd-9d40-c8820758e82a"
+      },
+      {
+        "id": "f7aa9f3d-952f-4035-96e7-d570bd0ede4b",
+        "created_at": "2023-08-01T01:20:57.689Z",
+        "updated_at": "2023-08-01T16:30:33.448Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "02519279-5083-4a06-a377-1403eb71da4c"
+      },
+      {
+        "id": "263eebbb-c755-4de9-9626-f9c6963a6474",
+        "created_at": "2023-08-01T08:21:55.714Z",
+        "updated_at": "2023-08-01T13:55:52.933Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "02519279-5083-4a06-a377-1403eb71da4c"
+      },
+      {
+        "id": "8593d57a-1202-4803-be0d-a9b67b9d6aa0",
+        "created_at": "2023-08-01T08:25:07.512Z",
+        "updated_at": "2023-07-31T18:10:30.276Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "02519279-5083-4a06-a377-1403eb71da4c"
+      },
+      {
+        "id": "2443cbae-a8db-467a-9de5-3e3c335565ee",
+        "created_at": "2023-08-01T15:36:44.871Z",
+        "updated_at": "2023-08-01T15:40:29.222Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "7763b526-0dd6-47fd-9d40-c8820758e82a"
+      }
+    ],
+    "rating": [
+      {
+        "id": "8258915e-6abd-4749-8744-16020ed524a2",
+        "rating_value": 69523,
+        "created_at": "2023-08-01T11:42:50.278Z",
+        "updated_at": "2023-08-01T07:08:03.061Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "42ac7f53-0d5f-4263-abcf-1ce350c378d2"
+      },
+      {
+        "id": "e1b82e32-f221-45de-8e2f-bab3b044fe54",
+        "rating_value": 23653,
+        "created_at": "2023-08-01T03:03:16.459Z",
+        "updated_at": "2023-07-31T23:37:56.711Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "9ae0c18d-5c72-4d18-ac66-0a8c93b3192d"
+      },
+      {
+        "id": "fa8aa6ab-a1e5-4b8f-a79f-62a2ba21c1ff",
+        "rating_value": 3897,
+        "created_at": "2023-07-31T23:05:04.955Z",
+        "updated_at": "2023-07-31T17:37:52.384Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a33a613a-9eb1-4ded-b409-d352def57639"
+      },
+      {
+        "id": "ccdc8c11-f953-48f0-b50d-ff687e71a231",
+        "rating_value": 4657,
+        "created_at": "2023-08-01T05:54:43.051Z",
+        "updated_at": "2023-08-01T05:12:42.611Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "9ae0c18d-5c72-4d18-ac66-0a8c93b3192d"
+      },
+      {
+        "id": "fd33de4e-388a-4efb-a03c-e8c66a7d41a9",
+        "rating_value": 46254,
+        "created_at": "2023-07-31T23:46:57.862Z",
+        "updated_at": "2023-08-01T04:45:21.493Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "42ac7f53-0d5f-4263-abcf-1ce350c378d2"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f30a4bf7-e7c3-43f1-93a3-78ee717c5638",
+        "scheduled_time": "2023-08-01T15:20:38.258Z",
+        "created_at": "2023-07-31T21:21:24.072Z",
+        "updated_at": "2023-08-01T12:56:26.628Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "09f1326c-1ce4-4b5b-b6bb-deb5fe2b9bf3",
+        "scheduled_time": "2023-07-31T18:53:15.101Z",
+        "created_at": "2023-07-31T23:41:29.982Z",
+        "updated_at": "2023-08-01T08:05:49.977Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0d9ba91c-e9cb-40ec-b14f-220a3e35a613",
+        "scheduled_time": "2023-08-01T16:17:36.046Z",
+        "created_at": "2023-08-01T07:39:20.523Z",
+        "updated_at": "2023-08-01T01:40:59.584Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "993216a7-3c73-45a7-9906-78e0b2383380",
+        "scheduled_time": "2023-08-01T00:47:17.247Z",
+        "created_at": "2023-08-01T04:59:18.942Z",
+        "updated_at": "2023-08-01T13:17:41.569Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4399cdc6-a37b-40a4-88ae-0f6418931d95",
+        "scheduled_time": "2023-07-31T19:45:13.966Z",
+        "created_at": "2023-08-01T06:56:47.276Z",
+        "updated_at": "2023-07-31T19:36:18.354Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "ff8dc7dc-cc5a-4eba-926c-6f2f8f279510",
+        "points": 1223,
+        "created_at": "2023-08-01T16:00:37.259Z",
+        "updated_at": "2023-08-01T14:51:00.727Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7125004b-4b4c-465d-ab40-50bd4fc007f2",
+        "points": 28099,
+        "created_at": "2023-08-01T01:48:01.435Z",
+        "updated_at": "2023-08-01T14:32:12.256Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ee6669fb-7d1d-4f54-a8bf-e778edb36240",
+        "points": 32959,
+        "created_at": "2023-08-01T09:58:17.879Z",
+        "updated_at": "2023-07-31T19:18:56.100Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "3588e0dc-f66f-42d7-b2f2-1af8e1e2777b",
+        "points": 71101,
+        "created_at": "2023-08-01T05:58:58.309Z",
+        "updated_at": "2023-07-31T21:34:51.638Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7bf559d7-9194-4045-9bbd-bea6407b3a1a",
+        "points": 51517,
+        "created_at": "2023-07-31T17:04:44.125Z",
+        "updated_at": "2023-08-01T12:08:29.908Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "a422077f-19d2-4135-b64c-83681e348b9e",
+        "availability_status": true,
+        "created_at": "2023-08-01T11:50:47.748Z",
+        "updated_at": "2023-08-01T16:26:56.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11907039-c7c2-4493-bdef-e0d5bf766712",
+        "availability_status": false,
+        "created_at": "2023-08-01T15:36:25.104Z",
+        "updated_at": "2023-07-31T21:17:06.577Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8c642d3-8b2e-40ef-8f7a-0663c7301743",
+        "availability_status": true,
+        "created_at": "2023-08-01T03:14:02.053Z",
+        "updated_at": "2023-08-01T00:29:45.979Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61b023b9-6fd8-4c13-beb6-398df9a5fe05",
+        "availability_status": false,
+        "created_at": "2023-07-31T22:25:57.969Z",
+        "updated_at": "2023-08-01T10:25:49.470Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55c6fcad-0150-455b-8494-412641735c3e",
+        "availability_status": true,
+        "created_at": "2023-07-31T17:31:25.262Z",
+        "updated_at": "2023-07-31T20:08:07.370Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "22c97271-07db-44d3-bf58-76f0dade2c01",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T05:31:08.566Z",
+        "updated_at": "2023-08-01T01:22:22.234Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a8c642d3-8b2e-40ef-8f7a-0663c7301743"
+      },
+      {
+        "id": "10216a20-c5ef-47e5-8fe5-ff80e49987e4",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-07-31T18:23:45.753Z",
+        "updated_at": "2023-08-01T07:44:56.592Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "55c6fcad-0150-455b-8494-412641735c3e"
+      },
+      {
+        "id": "8d64184b-8b58-429f-975f-cb525dd812bc",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T15:59:46.729Z",
+        "updated_at": "2023-08-01T00:42:40.127Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a422077f-19d2-4135-b64c-83681e348b9e"
+      },
+      {
+        "id": "de4eb842-9ee8-48c7-8fb0-ec2135a0b515",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T05:45:21.864Z",
+        "updated_at": "2023-07-31T18:20:06.667Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a8c642d3-8b2e-40ef-8f7a-0663c7301743"
+      },
+      {
+        "id": "efbd062c-e260-4845-ae7d-a66c8ce09dcc",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T12:18:13.644Z",
+        "updated_at": "2023-08-01T12:50:22.984Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "55c6fcad-0150-455b-8494-412641735c3e"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "a96ca1da-5640-4171-868d-7f60ae5480fb",
+        "created_at": "2023-08-01T13:49:06.222Z",
+        "updated_at": "2023-07-31T23:28:57.615Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "10216a20-c5ef-47e5-8fe5-ff80e49987e4"
+      },
+      {
+        "id": "4208ec29-a9bd-47c1-83e4-0e0041cc4adf",
+        "created_at": "2023-07-31T20:29:32.658Z",
+        "updated_at": "2023-08-01T13:10:06.420Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "8d64184b-8b58-429f-975f-cb525dd812bc"
+      },
+      {
+        "id": "ae31e478-d2ec-4f7b-85da-1c7fc799a042",
+        "created_at": "2023-08-01T07:52:50.380Z",
+        "updated_at": "2023-07-31T21:46:08.842Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "10216a20-c5ef-47e5-8fe5-ff80e49987e4"
+      },
+      {
+        "id": "14d23e18-71c7-4640-aa24-f351829b67ad",
+        "created_at": "2023-07-31T20:54:04.949Z",
+        "updated_at": "2023-07-31T22:30:39.454Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "de4eb842-9ee8-48c7-8fb0-ec2135a0b515"
+      },
+      {
+        "id": "f38382b4-8ee0-41be-ae94-347e26dc3ade",
+        "created_at": "2023-08-01T09:16:02.571Z",
+        "updated_at": "2023-08-01T06:28:29.276Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "8d64184b-8b58-429f-975f-cb525dd812bc"
+      }
+    ],
+    "rating": [
+      {
+        "id": "c9ce4ab9-5200-44a4-8b27-d3ea46029cc8",
+        "rating_value": 42768,
+        "created_at": "2023-08-01T11:45:24.656Z",
+        "updated_at": "2023-08-01T13:03:46.199Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a8c642d3-8b2e-40ef-8f7a-0663c7301743"
+      },
+      {
+        "id": "59f6e2cc-0143-4c99-9474-96d467152c5f",
+        "rating_value": 28546,
+        "created_at": "2023-07-31T21:29:03.026Z",
+        "updated_at": "2023-07-31T22:19:58.607Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a8c642d3-8b2e-40ef-8f7a-0663c7301743"
+      },
+      {
+        "id": "72289068-99f2-4a1d-8493-8e7489b9e6d9",
+        "rating_value": 4868,
+        "created_at": "2023-08-01T09:23:22.878Z",
+        "updated_at": "2023-08-01T10:40:20.660Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "61b023b9-6fd8-4c13-beb6-398df9a5fe05"
+      },
+      {
+        "id": "579305c6-3ddf-45c5-babe-603afe110477",
+        "rating_value": 75636,
+        "created_at": "2023-07-31T17:25:49.935Z",
+        "updated_at": "2023-08-01T02:41:37.653Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a422077f-19d2-4135-b64c-83681e348b9e"
+      },
+      {
+        "id": "670fcc77-23e3-4a70-beb5-f3dc8b9d247d",
+        "rating_value": 47038,
+        "created_at": "2023-08-01T11:28:02.958Z",
+        "updated_at": "2023-08-01T02:55:07.771Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "55c6fcad-0150-455b-8494-412641735c3e"
+      }
+    ],
+    "booking": [
+      {
+        "id": "09b12be5-cc7b-45ac-9793-7629cb84ca06",
+        "scheduled_time": "2023-08-01T00:01:53.884Z",
+        "created_at": "2023-07-31T18:29:51.252Z",
+        "updated_at": "2023-08-01T08:36:29.804Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "2ad1470c-9331-4dc2-bc90-fd4df61d8f4d",
+        "scheduled_time": "2023-08-01T03:24:02.059Z",
+        "created_at": "2023-08-01T08:36:06.339Z",
+        "updated_at": "2023-07-31T21:42:01.035Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c63a971e-31b9-47bb-ab31-979e0a0b915e",
+        "scheduled_time": "2023-08-01T09:30:02.107Z",
+        "created_at": "2023-07-31T18:29:41.468Z",
+        "updated_at": "2023-08-01T13:11:32.193Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "137fb1b6-71a1-47bc-b553-5bcd960752e3",
+        "scheduled_time": "2023-07-31T20:14:59.197Z",
+        "created_at": "2023-08-01T03:32:09.140Z",
+        "updated_at": "2023-08-01T15:58:33.728Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "2c620824-1b5a-41c0-9638-44a191704a0b",
+        "scheduled_time": "2023-08-01T04:13:50.358Z",
+        "created_at": "2023-07-31T17:57:15.442Z",
+        "updated_at": "2023-08-01T11:57:05.264Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "eee399ae-1169-455f-b092-7045d6bcc452",
+        "points": 22450,
+        "created_at": "2023-07-31T19:57:44.267Z",
+        "updated_at": "2023-07-31T17:52:27.469Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7968d6bb-c108-4461-a1a8-de764b80ad5e",
+        "points": 33103,
+        "created_at": "2023-08-01T07:51:40.524Z",
+        "updated_at": "2023-07-31T19:26:01.675Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "df501a98-b470-480d-a063-a37b9960b3a9",
+        "points": 8318,
+        "created_at": "2023-08-01T09:22:25.780Z",
+        "updated_at": "2023-08-01T11:50:55.566Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c3009fa6-661c-46a2-8cb5-310b93cbd706",
+        "points": 70045,
+        "created_at": "2023-08-01T01:15:58.911Z",
+        "updated_at": "2023-08-01T16:28:43.539Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7f412b34-5568-4960-89ab-efc77acaee60",
+        "points": 86455,
+        "created_at": "2023-08-01T09:15:23.546Z",
+        "updated_at": "2023-08-01T10:09:14.508Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "6d466227-5696-4b9b-a510-c480f2ffc552",
+        "availability_status": true,
+        "created_at": "2023-08-01T06:32:19.651Z",
+        "updated_at": "2023-08-01T06:22:02.976Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa94e435-f59d-4d06-97b7-7b5e04e0496e",
+        "availability_status": true,
+        "created_at": "2023-07-31T18:16:08.277Z",
+        "updated_at": "2023-08-01T16:34:50.484Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "873eb42a-a7f4-4700-b9eb-37b7753c04e0",
+        "availability_status": true,
+        "created_at": "2023-08-01T00:39:17.000Z",
+        "updated_at": "2023-08-01T10:42:56.186Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ce68e13-1f4d-438d-a736-7da3584acf00",
+        "availability_status": false,
+        "created_at": "2023-08-01T09:20:50.235Z",
+        "updated_at": "2023-08-01T09:58:39.572Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79905569-77cf-48f6-84c0-8a5991347eac",
+        "availability_status": true,
+        "created_at": "2023-08-01T09:38:53.091Z",
+        "updated_at": "2023-07-31T22:00:39.111Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "5fbbcde4-e43c-4bd3-b4f6-7863b69e9ab3",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T12:57:22.460Z",
+        "updated_at": "2023-08-01T04:29:52.173Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "aa94e435-f59d-4d06-97b7-7b5e04e0496e"
+      },
+      {
+        "id": "f20a22f9-c35b-4c7a-ad8d-3e01ec8a0e2d",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T01:32:55.900Z",
+        "updated_at": "2023-08-01T08:17:32.494Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "aa94e435-f59d-4d06-97b7-7b5e04e0496e"
+      },
+      {
+        "id": "68b39430-a26d-419e-a497-1d69ad01b245",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-07-31T21:59:50.105Z",
+        "updated_at": "2023-08-01T10:40:14.405Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "873eb42a-a7f4-4700-b9eb-37b7753c04e0"
+      },
+      {
+        "id": "0d450ce4-c359-48a3-bdee-04ffebd0e6ea",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-07-31T22:03:02.067Z",
+        "updated_at": "2023-08-01T05:04:16.685Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "873eb42a-a7f4-4700-b9eb-37b7753c04e0"
+      },
+      {
+        "id": "70b778eb-d653-49eb-ace8-d488a1ff4fc0",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-07-31T18:37:48.362Z",
+        "updated_at": "2023-07-31T21:50:44.967Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "3ce68e13-1f4d-438d-a736-7da3584acf00"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "d66db101-8366-4da9-81cd-bd61fa70329a",
+        "created_at": "2023-08-01T12:54:46.977Z",
+        "updated_at": "2023-07-31T22:14:56.006Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "68b39430-a26d-419e-a497-1d69ad01b245"
+      },
+      {
+        "id": "de07428a-8fa1-4c6f-971d-7b60db64f27a",
+        "created_at": "2023-08-01T14:39:52.567Z",
+        "updated_at": "2023-08-01T05:13:49.432Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "5fbbcde4-e43c-4bd3-b4f6-7863b69e9ab3"
+      },
+      {
+        "id": "290cba17-92dd-4a02-8792-54f24134d998",
+        "created_at": "2023-08-01T04:41:54.622Z",
+        "updated_at": "2023-08-01T04:17:42.561Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "0d450ce4-c359-48a3-bdee-04ffebd0e6ea"
+      },
+      {
+        "id": "9c10a5a4-45fd-4c07-8cd4-5c6638d18341",
+        "created_at": "2023-08-01T00:45:44.974Z",
+        "updated_at": "2023-08-01T08:02:37.709Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "5fbbcde4-e43c-4bd3-b4f6-7863b69e9ab3"
+      },
+      {
+        "id": "e259c98c-3d3c-4360-9871-2319c8791cf1",
+        "created_at": "2023-08-01T01:55:54.998Z",
+        "updated_at": "2023-07-31T21:34:42.507Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "f20a22f9-c35b-4c7a-ad8d-3e01ec8a0e2d"
+      }
+    ],
+    "rating": [
+      {
+        "id": "583e6f2d-56bb-406b-b622-23ef2e3cd738",
+        "rating_value": 42994,
+        "created_at": "2023-08-01T11:08:33.525Z",
+        "updated_at": "2023-08-01T16:18:46.552Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "6d466227-5696-4b9b-a510-c480f2ffc552"
+      },
+      {
+        "id": "115c792a-e620-402f-84c4-f167442b23c4",
+        "rating_value": 4553,
+        "created_at": "2023-08-01T04:34:46.963Z",
+        "updated_at": "2023-08-01T05:01:09.437Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "873eb42a-a7f4-4700-b9eb-37b7753c04e0"
+      },
+      {
+        "id": "aaf8bda7-ba6a-4474-8b52-02edda62de73",
+        "rating_value": 44694,
+        "created_at": "2023-08-01T11:01:35.689Z",
+        "updated_at": "2023-08-01T05:48:53.289Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "873eb42a-a7f4-4700-b9eb-37b7753c04e0"
+      },
+      {
+        "id": "61af312e-26fa-4cf2-8eac-0b572c1b0f53",
+        "rating_value": 93513,
+        "created_at": "2023-08-01T02:58:15.187Z",
+        "updated_at": "2023-08-01T11:23:37.411Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "aa94e435-f59d-4d06-97b7-7b5e04e0496e"
+      },
+      {
+        "id": "2e021549-0e42-4d2d-9c9a-439fe94aaaf4",
+        "rating_value": 50323,
+        "created_at": "2023-08-01T06:16:08.480Z",
+        "updated_at": "2023-08-01T01:59:48.817Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "6d466227-5696-4b9b-a510-c480f2ffc552"
+      }
+    ],
+    "booking": [
+      {
+        "id": "152b9f5e-ff8c-4904-ac74-4b4d9fb2ac31",
+        "scheduled_time": "2023-07-31T21:47:37.861Z",
+        "created_at": "2023-07-31T22:06:57.834Z",
+        "updated_at": "2023-08-01T09:46:23.935Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "9f51ee66-7f45-4692-ad8b-7fa921ed38bd",
+        "scheduled_time": "2023-07-31T17:44:32.698Z",
+        "created_at": "2023-08-01T10:47:51.203Z",
+        "updated_at": "2023-07-31T22:33:15.343Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e09c2289-22e3-420c-ac47-ea86f9cd0a8c",
+        "scheduled_time": "2023-08-01T01:43:52.150Z",
+        "created_at": "2023-08-01T05:54:35.486Z",
+        "updated_at": "2023-08-01T03:09:04.071Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0cdb6de1-ddc3-48ec-87ba-77115a1c8174",
+        "scheduled_time": "2023-08-01T10:56:07.494Z",
+        "created_at": "2023-07-31T20:44:00.636Z",
+        "updated_at": "2023-08-01T04:30:45.522Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "9620d5d9-d45c-4adf-8cce-6995a6d76611",
+        "scheduled_time": "2023-08-01T10:02:46.218Z",
+        "created_at": "2023-08-01T05:33:59.596Z",
+        "updated_at": "2023-08-01T06:57:08.564Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "f5dbed64-5614-477b-ba26-aaf1b352d818",
+        "points": 81004,
+        "created_at": "2023-07-31T21:44:47.167Z",
+        "updated_at": "2023-08-01T13:13:17.574Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c11ddc57-db04-4dd2-8b26-f752b83ac088",
+        "points": 47920,
+        "created_at": "2023-07-31T18:37:11.330Z",
+        "updated_at": "2023-08-01T03:17:47.755Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "621c735c-9c4c-4cd0-b8d2-adab8e7177a2",
+        "points": 61988,
+        "created_at": "2023-07-31T19:22:47.054Z",
+        "updated_at": "2023-08-01T15:30:19.722Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "85ca87dd-a758-4e05-96b3-9e4b174122aa",
+        "points": 24575,
+        "created_at": "2023-08-01T15:04:05.409Z",
+        "updated_at": "2023-07-31T19:36:43.858Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a7ba846f-8f45-44ef-9bbe-cce178c379a9",
+        "points": 88130,
+        "created_at": "2023-08-01T12:16:55.964Z",
+        "updated_at": "2023-08-01T11:54:51.150Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "b1f1bcc2-71db-48cc-bc91-3f5700d3a1aa",
+        "availability_status": false,
+        "created_at": "2023-08-01T04:33:12.984Z",
+        "updated_at": "2023-08-01T15:18:41.758Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f25f1b11-6cbd-46e6-82e2-4eea91dd2512",
+        "availability_status": false,
+        "created_at": "2023-07-31T18:07:41.532Z",
+        "updated_at": "2023-08-01T00:19:13.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c1036d5-e879-4972-ac4c-bb7822e14ab1",
+        "availability_status": true,
+        "created_at": "2023-07-31T20:00:42.338Z",
+        "updated_at": "2023-08-01T10:16:25.480Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88ee689a-beed-40f1-a4f2-0d25bfe1f1af",
+        "availability_status": false,
+        "created_at": "2023-08-01T14:35:33.441Z",
+        "updated_at": "2023-07-31T22:09:52.117Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ff05fb7-3fec-4d17-ad7f-e624fcbcfc2c",
+        "availability_status": true,
+        "created_at": "2023-08-01T13:18:38.930Z",
+        "updated_at": "2023-07-31T23:01:14.696Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "ede31eba-13f5-4166-8033-4f98b1501482",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T02:47:17.869Z",
+        "updated_at": "2023-07-31T20:30:59.949Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "b1f1bcc2-71db-48cc-bc91-3f5700d3a1aa"
+      },
+      {
+        "id": "ec5788bd-3adb-4771-976c-fffc7194fa43",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-07-31T22:08:24.071Z",
+        "updated_at": "2023-08-01T04:27:59.039Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "4ff05fb7-3fec-4d17-ad7f-e624fcbcfc2c"
+      },
+      {
+        "id": "e45a8fb6-ba21-4fdd-be99-53f4752511f3",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T00:36:23.101Z",
+        "updated_at": "2023-08-01T00:16:50.175Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "f25f1b11-6cbd-46e6-82e2-4eea91dd2512"
+      },
+      {
+        "id": "6301878a-dfc1-46e3-9396-713c314dfd5f",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T12:29:22.178Z",
+        "updated_at": "2023-08-01T08:37:51.544Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "f25f1b11-6cbd-46e6-82e2-4eea91dd2512"
+      },
+      {
+        "id": "a9b3cd68-2fe3-434e-8e1d-f54be2f5c1a9",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-07-31T20:05:01.258Z",
+        "updated_at": "2023-08-01T07:08:48.978Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "9c1036d5-e879-4972-ac4c-bb7822e14ab1"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "8a90ea27-eaf4-45ad-a618-6914d6ea4835",
+        "created_at": "2023-08-01T04:45:08.917Z",
+        "updated_at": "2023-07-31T22:10:26.501Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "6301878a-dfc1-46e3-9396-713c314dfd5f"
+      },
+      {
+        "id": "40fc6a12-d586-413a-9a12-3244b9b4489a",
+        "created_at": "2023-08-01T04:37:31.305Z",
+        "updated_at": "2023-08-01T11:12:26.613Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "ede31eba-13f5-4166-8033-4f98b1501482"
+      },
+      {
+        "id": "f9e3aab3-5824-4c57-a275-3b908c7a362b",
+        "created_at": "2023-08-01T04:56:49.492Z",
+        "updated_at": "2023-08-01T09:09:17.011Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "ec5788bd-3adb-4771-976c-fffc7194fa43"
+      },
+      {
+        "id": "532d0082-d46c-4a5f-b8b8-30e59b480d08",
+        "created_at": "2023-07-31T19:23:22.480Z",
+        "updated_at": "2023-08-01T06:32:56.875Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "e45a8fb6-ba21-4fdd-be99-53f4752511f3"
+      },
+      {
+        "id": "f8072d13-a69c-459c-85d0-83109e2d0958",
+        "created_at": "2023-07-31T19:16:46.730Z",
+        "updated_at": "2023-08-01T02:16:42.947Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "e45a8fb6-ba21-4fdd-be99-53f4752511f3"
+      }
+    ],
+    "rating": [
+      {
+        "id": "cf5b2888-10fb-4450-9af6-bc66cad8eca7",
+        "rating_value": 66307,
+        "created_at": "2023-07-31T17:42:38.837Z",
+        "updated_at": "2023-07-31T17:31:38.837Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "4ff05fb7-3fec-4d17-ad7f-e624fcbcfc2c"
+      },
+      {
+        "id": "b4394418-d75f-452e-8a9d-a65deaf5bd7a",
+        "rating_value": 72873,
+        "created_at": "2023-08-01T00:53:53.035Z",
+        "updated_at": "2023-08-01T13:54:10.691Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "9c1036d5-e879-4972-ac4c-bb7822e14ab1"
+      },
+      {
+        "id": "e6b31bec-a4a5-437b-a1d7-0f41b2239fab",
+        "rating_value": 57807,
+        "created_at": "2023-07-31T19:07:14.611Z",
+        "updated_at": "2023-07-31T18:58:43.026Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "b1f1bcc2-71db-48cc-bc91-3f5700d3a1aa"
+      },
+      {
+        "id": "20d3ce1d-2755-4765-a10f-196fa52ddb33",
+        "rating_value": 74086,
+        "created_at": "2023-08-01T00:45:19.548Z",
+        "updated_at": "2023-08-01T08:30:40.559Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "f25f1b11-6cbd-46e6-82e2-4eea91dd2512"
+      },
+      {
+        "id": "758c6690-b73c-4cec-8363-e77693c14f84",
+        "rating_value": 47382,
+        "created_at": "2023-08-01T14:23:42.350Z",
+        "updated_at": "2023-07-31T23:41:15.361Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "b1f1bcc2-71db-48cc-bc91-3f5700d3a1aa"
+      }
+    ],
+    "booking": [
+      {
+        "id": "c545a85f-6c05-4f42-b0f4-8410b3151613",
+        "scheduled_time": "2023-08-01T02:03:53.032Z",
+        "created_at": "2023-08-01T03:49:24.196Z",
+        "updated_at": "2023-07-31T17:19:41.659Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0e1bc329-203f-4546-bc37-14abc98d64b0",
+        "scheduled_time": "2023-08-01T05:47:41.641Z",
+        "created_at": "2023-08-01T06:38:04.454Z",
+        "updated_at": "2023-07-31T16:54:38.805Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "8f772a7c-623e-4153-af88-f43234b687d2",
+        "scheduled_time": "2023-08-01T05:23:38.817Z",
+        "created_at": "2023-07-31T21:03:41.934Z",
+        "updated_at": "2023-07-31T18:08:13.075Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "14b46862-13f1-4d79-9d32-54f14a93da67",
+        "scheduled_time": "2023-08-01T05:59:01.263Z",
+        "created_at": "2023-08-01T00:21:46.050Z",
+        "updated_at": "2023-08-01T04:26:56.483Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "6f9efded-22bf-43fb-9fef-7ec529ef7257",
+        "scheduled_time": "2023-07-31T23:58:00.013Z",
+        "created_at": "2023-07-31T17:22:17.978Z",
+        "updated_at": "2023-07-31T23:37:52.643Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "b66f54bb-bd18-4faf-acaf-d89ac36ac30d",
+        "points": 13041,
+        "created_at": "2023-07-31T18:39:21.102Z",
+        "updated_at": "2023-08-01T02:11:22.853Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "9ca38ed9-2e4e-4cf9-b919-72bd1da078ec",
+        "points": 69377,
+        "created_at": "2023-08-01T01:38:28.979Z",
+        "updated_at": "2023-08-01T00:01:12.824Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "5c1b6178-0002-4b17-86f1-ab7fa26607d0",
+        "points": 6371,
+        "created_at": "2023-08-01T16:27:05.798Z",
+        "updated_at": "2023-07-31T19:12:50.884Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "13d32c88-1fbc-45a3-b83f-13288f0b282e",
+        "points": 47342,
+        "created_at": "2023-08-01T08:43:50.845Z",
+        "updated_at": "2023-08-01T02:55:21.485Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7bdb6fcb-8691-4d9f-9514-80f5e4af2966",
+        "points": 10033,
+        "created_at": "2023-08-01T04:27:09.670Z",
+        "updated_at": "2023-08-01T14:30:10.325Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "94f1583b-c47d-42c0-a08f-a64b8ac5b586",
+        "availability_status": true,
+        "created_at": "2023-08-01T13:06:46.072Z",
+        "updated_at": "2023-08-01T12:51:52.324Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e185dd9-77d7-4fdf-b33f-d2d75f29d0f4",
+        "availability_status": false,
+        "created_at": "2023-07-31T17:31:37.620Z",
+        "updated_at": "2023-08-01T13:30:26.241Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "252a8f84-0953-4cb2-a2ae-71dcf8ba5188",
+        "availability_status": false,
+        "created_at": "2023-08-01T10:41:58.949Z",
+        "updated_at": "2023-07-31T19:02:34.613Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbde0d8c-1110-4b10-95bf-10e6419dd121",
+        "availability_status": false,
+        "created_at": "2023-07-31T22:50:52.173Z",
+        "updated_at": "2023-08-01T14:47:00.975Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26095de7-92ec-4afc-9f75-a4ffca396b05",
+        "availability_status": false,
+        "created_at": "2023-08-01T08:34:21.034Z",
+        "updated_at": "2023-08-01T01:41:10.511Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "c7b2af50-8824-4096-be95-89ed2a49af9a",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T12:30:16.236Z",
+        "updated_at": "2023-07-31T19:12:06.872Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "252a8f84-0953-4cb2-a2ae-71dcf8ba5188"
+      },
+      {
+        "id": "9446603d-9395-4497-8d1f-57ad22a091c9",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T00:36:40.513Z",
+        "updated_at": "2023-07-31T20:15:47.909Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "94f1583b-c47d-42c0-a08f-a64b8ac5b586"
+      },
+      {
+        "id": "95271f2b-5a26-4f87-8cda-c7f945eebf3e",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T09:29:41.620Z",
+        "updated_at": "2023-08-01T14:52:11.520Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "26095de7-92ec-4afc-9f75-a4ffca396b05"
+      },
+      {
+        "id": "0f13c515-ef91-4515-81f4-5671560f21c6",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-07-31T18:14:29.870Z",
+        "updated_at": "2023-07-31T23:58:30.928Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "252a8f84-0953-4cb2-a2ae-71dcf8ba5188"
+      },
+      {
+        "id": "bcde9c13-b0d2-46f2-9957-d86014f82495",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T08:25:58.113Z",
+        "updated_at": "2023-08-01T16:52:59.874Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "cbde0d8c-1110-4b10-95bf-10e6419dd121"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "4c3813f0-37b1-4ba2-9ffb-92696879f886",
+        "created_at": "2023-08-01T07:02:28.586Z",
+        "updated_at": "2023-07-31T18:46:24.246Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "c7b2af50-8824-4096-be95-89ed2a49af9a"
+      },
+      {
+        "id": "17c1c441-cc1d-4978-a6a3-d24ee747dc33",
+        "created_at": "2023-07-31T20:53:16.358Z",
+        "updated_at": "2023-08-01T14:02:57.617Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "c7b2af50-8824-4096-be95-89ed2a49af9a"
+      },
+      {
+        "id": "f9a2ed36-63b3-42ac-9cf2-4bf640d49008",
+        "created_at": "2023-07-31T18:24:26.195Z",
+        "updated_at": "2023-07-31T18:42:37.922Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "95271f2b-5a26-4f87-8cda-c7f945eebf3e"
+      },
+      {
+        "id": "0a9a3a19-5b70-4fa7-a8bf-9be23a3e6417",
+        "created_at": "2023-08-01T15:45:21.948Z",
+        "updated_at": "2023-08-01T08:47:33.569Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "95271f2b-5a26-4f87-8cda-c7f945eebf3e"
+      },
+      {
+        "id": "57774863-e4f4-48dd-b463-4cee99560776",
+        "created_at": "2023-08-01T10:23:21.060Z",
+        "updated_at": "2023-08-01T09:18:18.631Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "bcde9c13-b0d2-46f2-9957-d86014f82495"
+      }
+    ],
+    "rating": [
+      {
+        "id": "e730e2cd-e0f5-4350-b14c-afa87cfa377b",
+        "rating_value": 85588,
+        "created_at": "2023-07-31T19:01:53.628Z",
+        "updated_at": "2023-08-01T00:51:15.742Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "94f1583b-c47d-42c0-a08f-a64b8ac5b586"
+      },
+      {
+        "id": "f4c3e9c7-b316-4ddd-a1c7-57713a6516f5",
+        "rating_value": 5616,
+        "created_at": "2023-08-01T10:32:39.524Z",
+        "updated_at": "2023-07-31T19:32:31.812Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "26095de7-92ec-4afc-9f75-a4ffca396b05"
+      },
+      {
+        "id": "21d2d6af-0b1b-4673-adfb-583a203236c4",
+        "rating_value": 22008,
+        "created_at": "2023-07-31T18:15:12.720Z",
+        "updated_at": "2023-08-01T06:02:12.223Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "94f1583b-c47d-42c0-a08f-a64b8ac5b586"
+      },
+      {
+        "id": "902bcb44-2ae0-4997-9b67-1b5ab17c6ce2",
+        "rating_value": 96478,
+        "created_at": "2023-08-01T09:02:18.660Z",
+        "updated_at": "2023-08-01T02:35:38.436Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "94f1583b-c47d-42c0-a08f-a64b8ac5b586"
+      },
+      {
+        "id": "95ed7c3d-c45d-4b0c-8457-584342aa0f00",
+        "rating_value": 1656,
+        "created_at": "2023-08-01T07:30:06.763Z",
+        "updated_at": "2023-08-01T01:14:49.602Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "cbde0d8c-1110-4b10-95bf-10e6419dd121"
+      }
+    ],
+    "booking": [
+      {
+        "id": "937706b9-d461-4eb7-98cd-07a256ef8507",
+        "scheduled_time": "2023-07-31T23:09:41.705Z",
+        "created_at": "2023-08-01T06:18:10.543Z",
+        "updated_at": "2023-08-01T16:10:31.082Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4d314ba4-8c02-41ee-b736-063b4c5a377f",
+        "scheduled_time": "2023-08-01T01:30:19.489Z",
+        "created_at": "2023-08-01T12:15:46.267Z",
+        "updated_at": "2023-08-01T00:05:54.185Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "b7ba1666-dfb1-4e11-b729-19328e2a9882",
+        "scheduled_time": "2023-08-01T16:14:51.974Z",
+        "created_at": "2023-08-01T06:59:04.627Z",
+        "updated_at": "2023-07-31T21:47:09.051Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "b6f10b03-2e89-4cb6-9448-b92d7ad25e42",
+        "scheduled_time": "2023-08-01T06:29:48.437Z",
+        "created_at": "2023-07-31T22:05:37.061Z",
+        "updated_at": "2023-07-31T19:14:28.618Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "56544f30-d845-46d0-96d3-f2abff666935",
+        "scheduled_time": "2023-08-01T13:32:41.294Z",
+        "created_at": "2023-08-01T16:40:26.885Z",
+        "updated_at": "2023-08-01T02:41:53.045Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "dc41f635-45c3-435f-812f-0fd4cfa95f5c",
+        "points": 7098,
+        "created_at": "2023-07-31T20:45:07.420Z",
+        "updated_at": "2023-08-01T01:10:29.711Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "29b1aa9e-90c0-48ed-9187-240acc3ad0b1",
+        "points": 8761,
+        "created_at": "2023-08-01T00:28:05.115Z",
+        "updated_at": "2023-08-01T10:41:30.187Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "3fa4b029-3a08-4ee7-a574-bd9a945d328b",
+        "points": 22413,
+        "created_at": "2023-08-01T12:18:05.501Z",
+        "updated_at": "2023-08-01T02:23:20.185Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "30257bc8-a78c-4c00-9e1c-42e02b637c49",
+        "points": 44186,
+        "created_at": "2023-08-01T04:57:59.487Z",
+        "updated_at": "2023-08-01T04:35:57.873Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "fb94ad3f-f53e-4710-b07a-099e050a8f1e",
+        "points": 9286,
+        "created_at": "2023-08-01T14:14:17.959Z",
+        "updated_at": "2023-08-01T10:02:50.568Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "63d3b2f6-c9fb-4d70-88cc-689c90acf49a",
+        "availability_status": true,
+        "created_at": "2023-08-01T02:51:22.441Z",
+        "updated_at": "2023-07-31T17:21:52.661Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2e9cd30-bb9f-4ac7-8f65-95efccbca555",
+        "availability_status": true,
+        "created_at": "2023-07-31T17:35:08.489Z",
+        "updated_at": "2023-07-31T22:53:45.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de3fdfc6-7e9c-474c-9671-3f9a1bf3f2be",
+        "availability_status": false,
+        "created_at": "2023-08-01T05:28:17.876Z",
+        "updated_at": "2023-08-01T04:31:46.528Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2becd31c-e005-439e-9148-138b52f7b2ff",
+        "availability_status": false,
+        "created_at": "2023-08-01T08:11:44.274Z",
+        "updated_at": "2023-08-01T09:51:03.124Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4df58e01-835c-4b12-ba75-ebc0737d57b6",
+        "availability_status": false,
+        "created_at": "2023-08-01T09:15:18.660Z",
+        "updated_at": "2023-07-31T17:10:13.434Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "18523801-8662-418d-bcdf-ca694df86393",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T07:41:26.954Z",
+        "updated_at": "2023-08-01T06:18:35.451Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "4df58e01-835c-4b12-ba75-ebc0737d57b6"
+      },
+      {
+        "id": "98b36187-f1db-4b52-9687-cf2f6efd3e8a",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T11:49:41.827Z",
+        "updated_at": "2023-07-31T20:17:07.361Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "4df58e01-835c-4b12-ba75-ebc0737d57b6"
+      },
+      {
+        "id": "941bb521-63b1-4636-a931-56d564ab0690",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T15:04:04.716Z",
+        "updated_at": "2023-08-01T16:52:16.736Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "c2e9cd30-bb9f-4ac7-8f65-95efccbca555"
+      },
+      {
+        "id": "d192c225-34fc-4dc3-9ebc-112de2d7bc9e",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T13:19:41.847Z",
+        "updated_at": "2023-08-01T14:52:53.884Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "de3fdfc6-7e9c-474c-9671-3f9a1bf3f2be"
+      },
+      {
+        "id": "32e38e1c-5c83-485b-860b-af379b3b8d4e",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T13:52:14.547Z",
+        "updated_at": "2023-07-31T19:22:36.027Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "c2e9cd30-bb9f-4ac7-8f65-95efccbca555"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "af34c044-d0a2-4f6b-8039-edd2856d955d",
+        "created_at": "2023-08-01T16:34:33.553Z",
+        "updated_at": "2023-08-01T02:17:01.568Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "32e38e1c-5c83-485b-860b-af379b3b8d4e"
+      },
+      {
+        "id": "7c2089c5-2283-45d7-bfcc-6ed2fac953a0",
+        "created_at": "2023-07-31T18:29:23.680Z",
+        "updated_at": "2023-07-31T20:26:53.724Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "941bb521-63b1-4636-a931-56d564ab0690"
+      },
+      {
+        "id": "663fa901-3ac2-4959-87bc-59012fbc4d25",
+        "created_at": "2023-08-01T02:10:14.637Z",
+        "updated_at": "2023-08-01T03:47:27.638Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "d192c225-34fc-4dc3-9ebc-112de2d7bc9e"
+      },
+      {
+        "id": "bd48416e-9f76-4003-a76b-f992e5e42b7b",
+        "created_at": "2023-08-01T10:12:16.125Z",
+        "updated_at": "2023-08-01T12:09:08.101Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "941bb521-63b1-4636-a931-56d564ab0690"
+      },
+      {
+        "id": "d1fdb1b1-6f95-4e2a-a84c-b9a66aa514dd",
+        "created_at": "2023-07-31T21:35:35.626Z",
+        "updated_at": "2023-08-01T02:41:08.724Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "98b36187-f1db-4b52-9687-cf2f6efd3e8a"
+      }
+    ],
+    "rating": [
+      {
+        "id": "11c6e535-dfa7-4115-9337-8fa18d715ea4",
+        "rating_value": 28178,
+        "created_at": "2023-08-01T12:23:51.932Z",
+        "updated_at": "2023-07-31T21:40:57.445Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "63d3b2f6-c9fb-4d70-88cc-689c90acf49a"
+      },
+      {
+        "id": "f22e47e8-dae7-4c95-b672-d4c0e3e39a3c",
+        "rating_value": 20495,
+        "created_at": "2023-08-01T05:45:43.993Z",
+        "updated_at": "2023-07-31T23:08:14.235Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "2becd31c-e005-439e-9148-138b52f7b2ff"
+      },
+      {
+        "id": "a4406b6a-2af1-48ea-8d33-6425f57a529e",
+        "rating_value": 35813,
+        "created_at": "2023-08-01T14:52:34.706Z",
+        "updated_at": "2023-07-31T17:42:47.619Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "2becd31c-e005-439e-9148-138b52f7b2ff"
+      },
+      {
+        "id": "f9439c36-742f-430e-991c-83454ab1e90c",
+        "rating_value": 49214,
+        "created_at": "2023-08-01T13:21:01.565Z",
+        "updated_at": "2023-08-01T01:23:36.508Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "2becd31c-e005-439e-9148-138b52f7b2ff"
+      },
+      {
+        "id": "94cc1eee-fb17-4f19-a89a-5e9bbdc7a631",
+        "rating_value": 20736,
+        "created_at": "2023-07-31T19:24:21.196Z",
+        "updated_at": "2023-08-01T14:01:08.999Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "4df58e01-835c-4b12-ba75-ebc0737d57b6"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8a131efa-4d36-4ece-924f-a9290174699a",
+        "scheduled_time": "2023-08-01T12:21:07.145Z",
+        "created_at": "2023-08-01T15:38:03.285Z",
+        "updated_at": "2023-08-01T14:12:29.164Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "41c9d888-0651-410c-a13a-f43497e89d6d",
+        "scheduled_time": "2023-07-31T23:37:22.659Z",
+        "created_at": "2023-08-01T00:26:46.198Z",
+        "updated_at": "2023-08-01T06:56:03.953Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d8eeb3e6-bf58-4b25-8ee5-b5461b31a54c",
+        "scheduled_time": "2023-08-01T12:00:03.249Z",
+        "created_at": "2023-08-01T13:29:42.327Z",
+        "updated_at": "2023-07-31T19:49:00.615Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e48aaac4-5b1a-4612-a481-9552ef58e838",
+        "scheduled_time": "2023-08-01T06:31:18.236Z",
+        "created_at": "2023-07-31T19:04:38.945Z",
+        "updated_at": "2023-07-31T23:34:50.367Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7ef910ee-9e6e-4211-9274-8acea7772d62",
+        "scheduled_time": "2023-08-01T01:58:53.702Z",
+        "created_at": "2023-08-01T13:20:49.543Z",
+        "updated_at": "2023-08-01T10:34:17.174Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "12fae1a8-a880-46a7-a7b1-cbc34cbf5e3e",
+        "points": 10219,
+        "created_at": "2023-08-01T09:31:36.365Z",
+        "updated_at": "2023-08-01T07:44:03.381Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "dadd790a-4939-4286-9312-acb769e0f00b",
+        "points": 3690,
+        "created_at": "2023-07-31T17:47:25.290Z",
+        "updated_at": "2023-08-01T02:18:24.907Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "93e351a6-d1ed-4ac7-bd65-90d60c68b8c6",
+        "points": 21245,
+        "created_at": "2023-08-01T04:37:24.901Z",
+        "updated_at": "2023-07-31T18:38:59.953Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "09a40341-f6b3-48b8-9d60-f4c3df88ee88",
+        "points": 58907,
+        "created_at": "2023-08-01T14:36:11.417Z",
+        "updated_at": "2023-08-01T15:51:17.160Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ca77c758-3b10-454d-8f33-097cd52048ed",
+        "points": 23880,
+        "created_at": "2023-08-01T04:41:24.501Z",
+        "updated_at": "2023-07-31T21:37:36.515Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "ca57a3e8-cf0a-41c6-819e-468b9eb4af01",
+        "availability_status": true,
+        "created_at": "2023-07-31T17:42:54.154Z",
+        "updated_at": "2023-07-31T23:31:13.499Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcde6ecd-69df-4a43-90bd-94cbaa4fc684",
+        "availability_status": false,
+        "created_at": "2023-07-31T21:46:17.961Z",
+        "updated_at": "2023-07-31T23:07:40.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba75aee9-4596-4f00-9b91-959dc2c9b953",
+        "availability_status": true,
+        "created_at": "2023-08-01T05:32:13.097Z",
+        "updated_at": "2023-08-01T02:41:08.309Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d06eff04-2b56-43fb-9086-8128a4306ac5",
+        "availability_status": false,
+        "created_at": "2023-08-01T16:44:41.558Z",
+        "updated_at": "2023-08-01T14:42:15.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00458ca8-61ab-4f3c-8eb6-81fc1caf7397",
+        "availability_status": false,
+        "created_at": "2023-08-01T13:06:45.428Z",
+        "updated_at": "2023-08-01T03:04:14.041Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "6a52f0f8-c8b7-4a25-9be8-4f1d4029b3a4",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T06:10:17.214Z",
+        "updated_at": "2023-08-01T15:49:38.225Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "ca57a3e8-cf0a-41c6-819e-468b9eb4af01"
+      },
+      {
+        "id": "2d7025ff-8c0f-4fa0-a331-1f734f3ebbbf",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T14:04:45.741Z",
+        "updated_at": "2023-08-01T09:23:13.495Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "ca57a3e8-cf0a-41c6-819e-468b9eb4af01"
+      },
+      {
+        "id": "5bf099a8-bb56-4505-b01b-6e76de95c03f",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T03:43:55.676Z",
+        "updated_at": "2023-08-01T09:44:17.214Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "ca57a3e8-cf0a-41c6-819e-468b9eb4af01"
+      },
+      {
+        "id": "20a7a53f-9bc5-471c-8cb2-461d0c5cdaca",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-07-31T20:04:13.841Z",
+        "updated_at": "2023-08-01T05:58:40.583Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "d06eff04-2b56-43fb-9086-8128a4306ac5"
+      },
+      {
+        "id": "6d1ffcad-6710-42c3-b681-4de8c071e92c",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T06:13:19.785Z",
+        "updated_at": "2023-08-01T05:15:43.285Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "d06eff04-2b56-43fb-9086-8128a4306ac5"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "69853508-fc4e-4b84-a2cd-bf5c9873a0cd",
+        "created_at": "2023-08-01T16:13:10.795Z",
+        "updated_at": "2023-08-01T09:53:02.371Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "2d7025ff-8c0f-4fa0-a331-1f734f3ebbbf"
+      },
+      {
+        "id": "292dd52d-e8c7-45aa-b64e-3e040188b2a0",
+        "created_at": "2023-08-01T04:31:32.704Z",
+        "updated_at": "2023-07-31T18:56:16.898Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "2d7025ff-8c0f-4fa0-a331-1f734f3ebbbf"
+      },
+      {
+        "id": "0eff7a72-36a1-441f-886f-0c965fb51a95",
+        "created_at": "2023-08-01T00:37:38.068Z",
+        "updated_at": "2023-08-01T10:42:13.239Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "20a7a53f-9bc5-471c-8cb2-461d0c5cdaca"
+      },
+      {
+        "id": "1e8b21e2-d915-4a97-94d9-a8a7dae8de88",
+        "created_at": "2023-08-01T09:09:20.781Z",
+        "updated_at": "2023-07-31T21:33:10.903Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "5bf099a8-bb56-4505-b01b-6e76de95c03f"
+      },
+      {
+        "id": "505a53ee-12f9-49f4-a4a5-fcd0e346d41a",
+        "created_at": "2023-08-01T14:22:25.294Z",
+        "updated_at": "2023-07-31T17:33:17.146Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "6a52f0f8-c8b7-4a25-9be8-4f1d4029b3a4"
+      }
+    ],
+    "rating": [
+      {
+        "id": "709a9800-cbc5-44bd-9f9c-6437f2de7c6d",
+        "rating_value": 70127,
+        "created_at": "2023-08-01T14:06:20.742Z",
+        "updated_at": "2023-07-31T17:56:57.632Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "dcde6ecd-69df-4a43-90bd-94cbaa4fc684"
+      },
+      {
+        "id": "cbe78cc1-9dbc-4d0c-a207-2b01107afd8e",
+        "rating_value": 22338,
+        "created_at": "2023-08-01T06:26:00.568Z",
+        "updated_at": "2023-07-31T18:45:41.210Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "ca57a3e8-cf0a-41c6-819e-468b9eb4af01"
+      },
+      {
+        "id": "a9ad223a-c337-4ded-9dfc-92cbb191314f",
+        "rating_value": 62883,
+        "created_at": "2023-07-31T20:14:49.026Z",
+        "updated_at": "2023-07-31T21:35:21.822Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "ba75aee9-4596-4f00-9b91-959dc2c9b953"
+      },
+      {
+        "id": "e7c09ab5-ef35-4225-ae7c-301a8152d0b6",
+        "rating_value": 20579,
+        "created_at": "2023-08-01T02:47:31.733Z",
+        "updated_at": "2023-08-01T09:50:44.969Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "d06eff04-2b56-43fb-9086-8128a4306ac5"
+      },
+      {
+        "id": "414fe33a-7ded-4132-b414-86867538205d",
+        "rating_value": 13450,
+        "created_at": "2023-07-31T20:39:42.818Z",
+        "updated_at": "2023-08-01T00:51:19.198Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "d06eff04-2b56-43fb-9086-8128a4306ac5"
+      }
+    ],
+    "booking": [
+      {
+        "id": "fd4f4e45-af3f-4fbd-b045-f85b30e08ce0",
+        "scheduled_time": "2023-08-01T08:45:01.636Z",
+        "created_at": "2023-08-01T06:44:39.036Z",
+        "updated_at": "2023-07-31T17:33:40.831Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "bc32b544-d171-4d1b-95e8-dfca15dfdbb6",
+        "scheduled_time": "2023-08-01T02:04:16.959Z",
+        "created_at": "2023-08-01T03:46:12.318Z",
+        "updated_at": "2023-08-01T06:52:02.789Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "627190b7-28d1-404d-b7ab-9a11ada1ba8c",
+        "scheduled_time": "2023-08-01T04:57:24.944Z",
+        "created_at": "2023-08-01T13:33:36.557Z",
+        "updated_at": "2023-08-01T13:59:47.930Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e715edda-98a9-4d8c-a5c4-c9a7ead575e7",
+        "scheduled_time": "2023-08-01T07:01:47.408Z",
+        "created_at": "2023-08-01T15:54:23.344Z",
+        "updated_at": "2023-08-01T14:36:38.552Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0241b1f5-f3a7-429d-9186-2854001895fb",
+        "scheduled_time": "2023-08-01T13:51:17.077Z",
+        "created_at": "2023-07-31T21:22:23.432Z",
+        "updated_at": "2023-08-01T13:52:19.023Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "d50499a0-32b8-4230-8e59-d41d2914c36f",
+        "points": 83154,
+        "created_at": "2023-08-01T13:08:47.792Z",
+        "updated_at": "2023-08-01T08:52:08.181Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d2806322-8d39-4bff-808f-692de79ce5a4",
+        "points": 95354,
+        "created_at": "2023-08-01T10:05:18.665Z",
+        "updated_at": "2023-07-31T21:44:45.335Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0cb871e5-9492-422e-bd6e-497cf266acda",
+        "points": 68192,
+        "created_at": "2023-08-01T04:25:31.534Z",
+        "updated_at": "2023-08-01T13:27:50.474Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "162ab051-e401-4485-abec-a56614ad107a",
+        "points": 68698,
+        "created_at": "2023-08-01T05:07:52.897Z",
+        "updated_at": "2023-07-31T20:49:42.596Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "96582a1a-57a0-40ae-ad41-a7ef04ac9b6c",
+        "points": 73792,
+        "created_at": "2023-08-01T04:58:17.452Z",
+        "updated_at": "2023-08-01T15:55:12.751Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "1c500f7d-1d1b-42cd-b493-4a1e116d15e4",
+        "availability_status": false,
+        "created_at": "2023-08-01T03:25:50.867Z",
+        "updated_at": "2023-08-01T14:09:12.147Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19b18a30-1a10-4884-8ee2-acba124b26b9",
+        "availability_status": false,
+        "created_at": "2023-08-01T08:32:34.940Z",
+        "updated_at": "2023-07-31T19:11:15.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d98b382-994d-44dc-9873-5a52b06455dd",
+        "availability_status": false,
+        "created_at": "2023-08-01T03:14:19.437Z",
+        "updated_at": "2023-07-31T19:10:25.160Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3db13321-7820-429b-b7d3-30d6581679f9",
+        "availability_status": false,
+        "created_at": "2023-07-31T21:01:48.968Z",
+        "updated_at": "2023-07-31T19:10:52.871Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe5f4a5e-b0e5-4203-8d57-523c7c6f2e3f",
+        "availability_status": true,
+        "created_at": "2023-08-01T12:16:05.332Z",
+        "updated_at": "2023-08-01T14:08:57.922Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "a6c8803c-6a8b-4969-b4e9-f79d5085c207",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T13:44:31.026Z",
+        "updated_at": "2023-08-01T03:32:53.140Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "1c500f7d-1d1b-42cd-b493-4a1e116d15e4"
+      },
+      {
+        "id": "583fd8e7-5eeb-4a5c-bfef-20bb32aa382f",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T15:30:43.680Z",
+        "updated_at": "2023-08-01T08:54:41.786Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "3db13321-7820-429b-b7d3-30d6581679f9"
+      },
+      {
+        "id": "5dd92da0-5438-43e3-879e-93d7ec3d8194",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T05:51:34.428Z",
+        "updated_at": "2023-08-01T06:49:35.294Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "fe5f4a5e-b0e5-4203-8d57-523c7c6f2e3f"
+      },
+      {
+        "id": "754ffda0-21d6-477a-80eb-bee2cfc99b1e",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T08:19:42.678Z",
+        "updated_at": "2023-08-01T00:51:58.309Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "19b18a30-1a10-4884-8ee2-acba124b26b9"
+      },
+      {
+        "id": "83e09b96-a384-4838-8a5e-79b26c12a85e",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T05:32:25.773Z",
+        "updated_at": "2023-08-01T08:03:36.880Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "19b18a30-1a10-4884-8ee2-acba124b26b9"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "bf9136d4-d9a3-4600-809b-942e6975ad1a",
+        "created_at": "2023-08-01T07:42:49.751Z",
+        "updated_at": "2023-08-01T02:25:22.315Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "a6c8803c-6a8b-4969-b4e9-f79d5085c207"
+      },
+      {
+        "id": "ea38b546-276b-4d38-9fe6-1861b5dd940d",
+        "created_at": "2023-08-01T14:48:24.004Z",
+        "updated_at": "2023-08-01T02:43:16.426Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "754ffda0-21d6-477a-80eb-bee2cfc99b1e"
+      },
+      {
+        "id": "fbb9677b-62cb-46dd-afa7-366cfe1f6b6b",
+        "created_at": "2023-08-01T12:04:18.831Z",
+        "updated_at": "2023-08-01T15:31:51.224Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "5dd92da0-5438-43e3-879e-93d7ec3d8194"
+      },
+      {
+        "id": "e8422d20-6dd3-4ca6-8b5e-b1ef96cd59f7",
+        "created_at": "2023-07-31T19:20:41.255Z",
+        "updated_at": "2023-07-31T17:06:44.480Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "5dd92da0-5438-43e3-879e-93d7ec3d8194"
+      },
+      {
+        "id": "d0c7ed14-e826-4336-9545-f3ef1b920dce",
+        "created_at": "2023-08-01T10:11:48.627Z",
+        "updated_at": "2023-08-01T16:31:11.774Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "583fd8e7-5eeb-4a5c-bfef-20bb32aa382f"
+      }
+    ],
+    "rating": [
+      {
+        "id": "709095e3-ddb5-4e55-b738-549f44dd21f4",
+        "rating_value": 32896,
+        "created_at": "2023-08-01T16:16:39.070Z",
+        "updated_at": "2023-08-01T07:19:28.218Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "fe5f4a5e-b0e5-4203-8d57-523c7c6f2e3f"
+      },
+      {
+        "id": "97f1bf91-31f8-4d13-9518-4e081dab3176",
+        "rating_value": 5544,
+        "created_at": "2023-07-31T22:32:50.471Z",
+        "updated_at": "2023-07-31T17:47:01.647Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "19b18a30-1a10-4884-8ee2-acba124b26b9"
+      },
+      {
+        "id": "c82ba064-d167-433e-afd6-81d64fbde2f4",
+        "rating_value": 89389,
+        "created_at": "2023-07-31T19:01:17.179Z",
+        "updated_at": "2023-08-01T09:35:37.656Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "3db13321-7820-429b-b7d3-30d6581679f9"
+      },
+      {
+        "id": "2c81c141-9b5e-43e7-88d8-4801f826d3fb",
+        "rating_value": 1469,
+        "created_at": "2023-08-01T15:45:55.737Z",
+        "updated_at": "2023-08-01T02:27:43.952Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "0d98b382-994d-44dc-9873-5a52b06455dd"
+      },
+      {
+        "id": "6e3c415f-62ee-4e9f-9038-37395d13e254",
+        "rating_value": 71118,
+        "created_at": "2023-07-31T18:02:08.145Z",
+        "updated_at": "2023-08-01T02:55:51.239Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "0d98b382-994d-44dc-9873-5a52b06455dd"
+      }
+    ],
+    "booking": [
+      {
+        "id": "90bb2389-ed34-4746-8670-c58af5c0fef5",
+        "scheduled_time": "2023-08-01T12:19:34.891Z",
+        "created_at": "2023-08-01T05:14:02.945Z",
+        "updated_at": "2023-07-31T18:00:26.798Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "2d003fe2-b58b-4298-b330-fed368868a3c",
+        "scheduled_time": "2023-08-01T02:11:56.125Z",
+        "created_at": "2023-08-01T16:14:59.820Z",
+        "updated_at": "2023-08-01T11:50:05.083Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "cf390a44-9065-4b5d-8a75-4376ee72bf9c",
+        "scheduled_time": "2023-07-31T17:55:42.238Z",
+        "created_at": "2023-07-31T22:41:53.812Z",
+        "updated_at": "2023-08-01T02:13:13.745Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a0e1972a-60cb-434d-b19e-b5162d5356ca",
+        "scheduled_time": "2023-07-31T19:06:07.768Z",
+        "created_at": "2023-08-01T08:46:47.848Z",
+        "updated_at": "2023-07-31T22:56:10.325Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7da31f57-50a1-4130-a2e7-0def1b9f8789",
+        "scheduled_time": "2023-08-01T13:11:59.617Z",
+        "created_at": "2023-08-01T02:58:43.649Z",
+        "updated_at": "2023-08-01T14:21:38.915Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "loyalty_program": [
+      {
+        "id": "4e3c8a07-dea7-4cfa-86f8-b2faac04663c",
+        "points": 9834,
+        "created_at": "2023-07-31T19:34:18.157Z",
+        "updated_at": "2023-08-01T11:32:30.818Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4cc897c5-08db-4122-b7a0-46b9cb9eb13b",
+        "points": 21916,
+        "created_at": "2023-08-01T16:41:15.893Z",
+        "updated_at": "2023-08-01T00:37:16.207Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "75bd452a-dbb5-44dd-88f3-d963eb549d3e",
+        "points": 82230,
+        "created_at": "2023-08-01T12:12:13.771Z",
+        "updated_at": "2023-08-01T04:04:39.697Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "5996a0c2-0f4f-4ff7-8648-6f868f196d65",
+        "points": 28081,
+        "created_at": "2023-07-31T20:30:26.855Z",
+        "updated_at": "2023-08-01T06:39:47.407Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d35f6fcf-a9cf-48b4-b1eb-ab80f606a9a1",
+        "points": 63986,
+        "created_at": "2023-08-01T11:15:30.964Z",
+        "updated_at": "2023-08-01T07:13:24.282Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "driver": [
+      {
+        "id": "6f7096ce-372c-4f00-812e-65b0a08ac1d8",
+        "availability_status": true,
+        "created_at": "2023-08-01T00:14:33.472Z",
+        "updated_at": "2023-07-31T17:30:59.621Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb0944cd-1807-4853-a780-324cbd28c78e",
+        "availability_status": false,
+        "created_at": "2023-07-31T20:46:34.219Z",
+        "updated_at": "2023-08-01T07:49:25.982Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9948ec5a-bf8e-4e5c-b96c-2c3042e280e9",
+        "availability_status": false,
+        "created_at": "2023-07-31T20:15:16.748Z",
+        "updated_at": "2023-07-31T18:32:00.124Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a46bbd20-0681-466b-829f-9f49524a833b",
+        "availability_status": true,
+        "created_at": "2023-08-01T05:38:37.826Z",
+        "updated_at": "2023-08-01T06:35:14.040Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c6e01d0-79f8-42c3-bef5-e98424a97861",
+        "availability_status": true,
+        "created_at": "2023-08-01T06:30:02.138Z",
+        "updated_at": "2023-08-01T08:00:16.180Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "d8b87f23-c801-4ce8-9f63-c636f0803788",
+        "pickup_location": "Central Park",
+        "drop_off_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T05:21:48.816Z",
+        "updated_at": "2023-07-31T23:27:34.553Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "6f7096ce-372c-4f00-812e-65b0a08ac1d8"
+      },
+      {
+        "id": "8d7c4d02-252f-4125-92f6-ec098a09c73f",
+        "pickup_location": "Times Square",
+        "drop_off_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T07:01:44.334Z",
+        "updated_at": "2023-08-01T13:29:38.867Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "2c6e01d0-79f8-42c3-bef5-e98424a97861"
+      },
+      {
+        "id": "0f2af9f9-be26-47c7-b9d0-a1cc8ba10dd4",
+        "pickup_location": "Empire State Building",
+        "drop_off_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-07-31T22:19:07.780Z",
+        "updated_at": "2023-08-01T11:10:41.973Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "2c6e01d0-79f8-42c3-bef5-e98424a97861"
+      },
+      {
+        "id": "42ec860c-b34d-4ea2-a227-adb693059259",
+        "pickup_location": "Brooklyn Bridge",
+        "drop_off_location": "High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T08:42:59.583Z",
+        "updated_at": "2023-07-31T21:30:15.060Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "9948ec5a-bf8e-4e5c-b96c-2c3042e280e9"
+      },
+      {
+        "id": "6cabf1fa-a3ac-444b-a451-5b2a1c03f9f6",
+        "pickup_location": "Statue of Liberty",
+        "drop_off_location": "Chrysler Building",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T09:34:52.662Z",
+        "updated_at": "2023-08-01T13:59:06.619Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "2c6e01d0-79f8-42c3-bef5-e98424a97861"
+      }
+    ],
+    "trip_history": [
+      {
+        "id": "777c15c1-1f17-4800-8362-b03430e9ccad",
+        "created_at": "2023-07-31T22:54:33.985Z",
+        "updated_at": "2023-08-01T11:14:45.171Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "6cabf1fa-a3ac-444b-a451-5b2a1c03f9f6"
+      },
+      {
+        "id": "1d40399e-f3bc-4b88-b0de-992a8b7612a0",
+        "created_at": "2023-08-01T14:40:09.373Z",
+        "updated_at": "2023-07-31T19:03:14.915Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "8d7c4d02-252f-4125-92f6-ec098a09c73f"
+      },
+      {
+        "id": "b780daa9-6082-4720-9d04-23ec36f0958d",
+        "created_at": "2023-08-01T02:40:36.078Z",
+        "updated_at": "2023-08-01T08:27:45.442Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "42ec860c-b34d-4ea2-a227-adb693059259"
+      },
+      {
+        "id": "6ca57b76-bb93-4e81-b1e8-c7acd81f1615",
+        "created_at": "2023-08-01T08:28:59.502Z",
+        "updated_at": "2023-08-01T13:57:06.424Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "d8b87f23-c801-4ce8-9f63-c636f0803788"
+      },
+      {
+        "id": "cf80d79b-7ead-432c-ae84-ccbe48164c14",
+        "created_at": "2023-07-31T22:40:22.228Z",
+        "updated_at": "2023-08-01T08:02:05.008Z",
+        "customer_id": "user_entity_pk",
+        "ride_id": "8d7c4d02-252f-4125-92f6-ec098a09c73f"
+      }
+    ],
+    "rating": [
+      {
+        "id": "774b249b-b987-46d0-87e6-fdc87403dd20",
+        "rating_value": 71331,
+        "created_at": "2023-08-01T08:32:34.840Z",
+        "updated_at": "2023-08-01T11:13:27.432Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "2c6e01d0-79f8-42c3-bef5-e98424a97861"
+      },
+      {
+        "id": "185d9e71-fe98-4bb6-a53c-15f885d6ceb7",
+        "rating_value": 35830,
+        "created_at": "2023-08-01T00:59:03.311Z",
+        "updated_at": "2023-08-01T06:43:08.603Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "2c6e01d0-79f8-42c3-bef5-e98424a97861"
+      },
+      {
+        "id": "0cd9aba4-c2ad-40c2-85c8-8b2ae2f2bbab",
+        "rating_value": 18054,
+        "created_at": "2023-08-01T13:23:35.268Z",
+        "updated_at": "2023-07-31T18:08:36.333Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "9948ec5a-bf8e-4e5c-b96c-2c3042e280e9"
+      },
+      {
+        "id": "527bb0fd-9efd-4485-b110-9de09a45ef4b",
+        "rating_value": 16453,
+        "created_at": "2023-08-01T01:21:50.661Z",
+        "updated_at": "2023-08-01T02:13:26.130Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "a46bbd20-0681-466b-829f-9f49524a833b"
+      },
+      {
+        "id": "148f93b8-9a6d-4dee-8a76-91d4169be4cd",
+        "rating_value": 13795,
+        "created_at": "2023-07-31T18:06:53.073Z",
+        "updated_at": "2023-08-01T16:19:00.541Z",
+        "customer_id": "user_entity_pk",
+        "driver_id": "9948ec5a-bf8e-4e5c-b96c-2c3042e280e9"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2ca38fe5-ff6a-4017-9d4d-76fab0418a3a",
+        "scheduled_time": "2023-08-01T12:04:43.585Z",
+        "created_at": "2023-08-01T14:57:55.876Z",
+        "updated_at": "2023-08-01T13:49:40.812Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d880ca5c-6a17-48cb-b6f5-7d4aad179c1b",
+        "scheduled_time": "2023-08-01T08:56:00.718Z",
+        "created_at": "2023-08-01T14:51:59.079Z",
+        "updated_at": "2023-08-01T02:03:02.218Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "5b1f1792-8351-48fd-852d-12960bd3e237",
+        "scheduled_time": "2023-08-01T02:30:14.526Z",
+        "created_at": "2023-08-01T02:17:59.591Z",
+        "updated_at": "2023-08-01T14:47:33.719Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "3a50c5b1-199b-4587-b6a5-3560238fefce",
+        "scheduled_time": "2023-08-01T02:36:29.471Z",
+        "created_at": "2023-08-01T01:31:42.393Z",
+        "updated_at": "2023-07-31T21:39:12.312Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "bd0a943b-715f-496f-b5bd-4c5bea673c85",
+        "scheduled_time": "2023-08-01T00:01:52.377Z",
+        "created_at": "2023-08-01T03:14:46.354Z",
+        "updated_at": "2023-08-01T00:30:17.146Z",
+        "customer_id": "user_entity_pk"
+      }
+    ]
+  }
+]
